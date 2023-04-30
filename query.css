@@ -1,0 +1,41 @@
+
+@media (min-width: 1550px) {
+    .header_text h2 {
+        padding-bottom: 20px;
+    }
+
+    .opening_text {
+        padding-bottom: 80px;
+    } 
+    
+    .h1__text--products {
+        padding-top: 200px;
+    }
+    
+    img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .btn__products {
+        margin-bottom: 150px;  
+    }
+}
+
+@media (max-width: 1100px) {
+    h1,h2,section {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    /* header */
+    header {
+        min-height: 40vh;    
+    }
+
+    img {
+        width: 250px;
+        height: 200px;
+    }
+}

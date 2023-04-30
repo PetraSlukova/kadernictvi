@@ -1,0 +1,199 @@
+/* Google fonty */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant:ital@1&family=Courgette&family=Lobster+Two&family=Poppins:wght@400;800&family=Satisfy&display=swap');
+
+/* Obecné pro celou stránku */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* hlavní html tag */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+}
+
+/* Header */
+.header_text {
+    min-height: 30vh;
+    /* width: 100vw; nemusíme nastavovat*/
+    background: linear-gradient(rgba(199, 206, 215, 0.723), rgba(198, 178, 97, 0.657), rgba(4, 4, 13, 0)), url(img/main_photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.h1__text--uvod {
+    color: rgb(12, 12, 70);
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 60px;    
+}
+
+h2 {
+    color: rgb(12, 12, 70);
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.opening_text {
+    background: linear-gradient(rgba(199, 206, 215, 0.723), rgba(198, 178, 97, 0.657), rgba(4, 4, 13, 0)), url(img/main_photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding-bottom: 50px;
+} 
+
+.opening_text h2 {   
+    color: rgb(12, 12, 70);
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;       
+}
+
+.opening__text--btn {
+    display: inline-block;  
+    margin-top: 90px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 3px groove white;
+    border-radius: 80px;
+    box-shadow: 10px 0px 25px ;
+    background-color: rgb(37, 37, 75);
+    padding: 5px 15px;
+    cursor: url(img/icons8-tulip-48.png), auto;        
+}
+
+.contact__btn {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 3px groove white;
+    border-radius: 80px;
+    box-shadow: 10px 0px 25px ;
+    background-color: rgb(12, 12, 70);
+    padding: 5px 15px;
+    cursor: url(img/icons8-tulip-48.png), auto;  
+}
+
+/* section products */
+.section__products {
+    background: linear-gradient(rgba(199, 206, 215, 0.723), rgba(198, 178, 97, 0.657), rgba(4, 4, 13, 0)), url(img/main_photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.h1__text--products {
+    
+    color: rgb(12, 12, 70);
+    font-size: 60px;  
+    font-weight: bold;  
+    text-align: center;
+    padding-top: 70px;
+}
+
+.h2__text--products {
+    color: rgb(12, 12, 70);
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;  
+    padding-bottom: 50px;
+}
+
+.photos__products {   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px 10px;
+    padding-bottom: 50px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border: 5px ridge rgb(12, 12, 70);
+}
+
+.btn__products {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 3px groove white;
+    border-radius: 80px;
+    box-shadow: 10px 0px 25px ;
+    background-color: rgb(12, 12, 70);
+    padding: 5px 15px;
+    cursor: url(img/icons8-tulip-48.png), auto;    
+}
+
+/* section contact */
+.section__contact {
+    background: linear-gradient(rgba(199, 206, 215, 0.723), rgba(198, 178, 97, 0.657), rgba(4, 4, 13, 0)), url(img/main_photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(16, 16, 81);
+    font-weight:bolder;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section__contact h1 {
+    font-size: 60px;
+}
+
+.btn__contact {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 3px groove white;
+    border-radius: 80px;
+    box-shadow: 10px 0px 25px ;
+    background-color: rgb(12, 12, 70);
+    padding: 5px 15px;
+    cursor: url(img/icons8-tulip-48.png), auto;    
+}
+
+/* footer */
+footer {
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(174, 96, 96);
+}
+   
+
+    
+    
+
